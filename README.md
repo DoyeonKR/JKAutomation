@@ -1,6 +1,4 @@
-...existing code...
-# JKAutomation
-JK Automation Test
+
 
 ## 개요
 이 저장소는 Playwright + TypeScript 기반 E2E 테스트를 위한 샘플 프로젝트입니다. POM(Page Object Model) 구조를 권장하며, 로컬 또는 외부 사이트 대상 테스트 모두 지원합니다.
@@ -38,7 +36,6 @@ npm config set strict-ssl false
 ## TypeScript 설정 (필요 시)
 프로젝트 루트에 `tsconfig.json` 생성:
 ```json
-// filepath: c:\Users\kdy7854\Downloads\JKAutomation\tsconfig.json
 {
   "compilerOptions": {
     "target": "ESNext",
@@ -64,7 +61,6 @@ npm config set strict-ssl false
 ## Playwright 설정 (TypeScript)
 `playwright.config.ts` 예시:
 ```typescript
-// filepath: c:\Users\kdy7854\Downloads\JKAutomation\playwright.config.ts
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
@@ -114,7 +110,6 @@ npx playwright test tests/example.spec.ts
 
 ## 유용한 npm 스크립트 (package.json에 추가 권장)
 ```json
-// filepath: c:\Users\kdy7854\Downloads\JKAutomation\package.json
 // ...existing code...
 "scripts": {
   "test": "playwright test",
