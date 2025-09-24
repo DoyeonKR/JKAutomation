@@ -1,0 +1,29 @@
+{
+  "name": "jkautomation",
+  "version": "1.0.0",
+  "description": "JK Automation Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoyeonKR/JKAutomation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoyeonKR/JKAutomation/issues"
+  },
+  "homepage": "https://github.com/DoyeonKR/JKAutomation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "playwright": "^1.55.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "playwright-core": "^1.55.1"
+  }
+}

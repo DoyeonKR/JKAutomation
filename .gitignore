@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Playwright artifacts
+playwright-report/
+test-results/
+.traces/
+.playwright/
+
+# Logs, temp
+*.log
+*.tmp
+*.zip
+.nyc_output/
+coverage/
+
+# Environment / secrets
+.env
+.env.* 
+
+# Editor / OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+
+# Distribution / build
+dist/
+build/
